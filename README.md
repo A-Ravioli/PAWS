@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="logo.png" alt="Financial Dashboard Logo" width="200">
+  <img src="assets/logo.png" alt="Financial Dashboard Logo" width="200">
 </div>
 
 # Financial Dashboard
