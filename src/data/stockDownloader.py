@@ -1,6 +1,7 @@
 import yfinance as yf
 import pandas as pd
 from datetime import datetime
+from tqdm import tqdm
 
 def read_tickers_from_csv(file_path):
     # Read tickers from CSV file
@@ -10,7 +11,7 @@ def read_tickers_from_csv(file_path):
 def download_stock_data(tickers, start_date, end_date):
     stock_data = pd.DataFrame()
 
-    for ticker in tickers:
+    for ticker in tqdm(tickers, desc="Downloading Stock Data", unit="ticker"):
         # Download stock data
         data = yf.download(ticker, start=start_date, end=end_date)
         
