@@ -1,0 +1,18 @@
+# Node.js
+node_modules/
+
+# Visual Studio Code
+.vscode/
+
+# Compiled files
+*.log
+*.ini
+*.pid
+*.lock
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
