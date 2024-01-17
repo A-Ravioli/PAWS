@@ -2,9 +2,9 @@
   <img src="assets/pawsLogo.png" alt="Financial Dashboard Logo" width="600">
 </div>
 
-# Financial Dashboard
+# PAWS (Portfolio Analysis for Wealth Synthesis) Financial Dashboard
 
-Welcome to the Financial Dashboard project! This dashboard provides a comprehensive view of financial data, including stock prices, correlation matrices, and causal link graphs.
+Welcome to the Financial Dashboard project! PAWS offers a comprehensive view of financial data, focusing on Portfolio Analysis for Wealth Synthesis. It includes features such as stock prices, correlation matrices, and causal link graphs.
 
 ## Sections
 
